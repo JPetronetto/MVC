@@ -10,7 +10,7 @@ function __autoload($class) {
 }
 */
 
-function __autoload($classname) {
+public function __autoload($classname) {
   $classname = ltrim($classname, '\\');
   $filename  = '';
   $namespace = '';

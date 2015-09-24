@@ -1,5 +1,5 @@
 <?php
-/*
+
 function __autoload($class) {
 	$class = WWW_ROOT . DS . str_replace('\\', DS, $class) . '.php';
 	if (!file_exists($class)) {
@@ -8,9 +8,9 @@ function __autoload($class) {
 		require_once $class;
 	}
 }
-*/
 
-public function __autoload($classname) {
+
+/*public function __autoload($classname) {
   $classname = ltrim($classname, '\\');
   $filename  = '';
   $namespace = '';
@@ -21,4 +21,4 @@ public function __autoload($classname) {
   }
   $filename .= str_replace('_', '/', $classname) . '.php';
   require $filename;
-}
+}*/

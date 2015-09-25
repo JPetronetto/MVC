@@ -1,0 +1,33 @@
+body {
+	background: silver;
+}
+
+#header {
+	background: green;
+	padding: 20px;
+}
+
+#content {
+	background: #fff;
+	padding: 20px;
+}
+
+#footer {
+	background: gray;
+	padding: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+    text-transform: uppercase;
+}
+
+ul li a {
+	text-decoration: none;
+	color: yellow;
+}
